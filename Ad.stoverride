@@ -1,5 +1,5 @@
-name: 去广告
-desc: 去广告重写
+name: stash补充规则
+desc: 去广告，国内外分流
 
 http:
   force-http-engine:
