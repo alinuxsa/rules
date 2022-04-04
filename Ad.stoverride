@@ -3,8 +3,7 @@ desc: 去广告，国内外分流
 
 http:
   force-http-engine:
-    - weibointl.api.weibo.cn 
-    #- adpai.thepaper.cn
+    - weibointl.api.weibo.cn
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
