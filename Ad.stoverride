@@ -4,12 +4,14 @@ desc: 去广告，国内外分流
 http:
   force-http-engine:
     - weibointl.api.weibo.cn 
-    - 
+    - adpai.thepaper.cn
   mitm:
     - "weibointl.api.weibo.cn"
+    - "adpai.thepaper.cn"
   rewrite:
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
+    - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
 rules:
   - DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT
   - DOMAIN,umeng.com,REJECT
