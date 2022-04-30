@@ -7,16 +7,16 @@ http:
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
-    - "*.tiktokv.com"
-    - "*.byteoversea.com"
-    - "*.tik-tokapi.com"
   rewrite:
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
 rules:
   - DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT
-  - DOMAIN,umeng.com,REJECT
+  - DOMAIN-SUFFIX,umeng.com,REJECT
+  - DOMAIN-SUFFIX,weibo.com,REJECT
+  - DOMAIN-SUFFIX,weibo.cn,REJECT
+  - DOMAIN-SUFFIX,sinaimg.cn,REJECT
   - IP-CIDR,101.32.104.4/32,DIRECT,NO-RESOLVE
   - IP-CIDR,101.32.104.41/32,DIRECT,NO-RESOLVE
   - IP-CIDR,101.32.104.56/32,DIRECT,NO-RESOLVE
