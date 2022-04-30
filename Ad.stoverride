@@ -4,9 +4,6 @@ desc: 去广告，国内外分流
 http:
   force-http-engine:
     - weibointl.api.weibo.cn
-    - *.tiktokv.com
-    - *.byteoversea.com
-    - *.tik-tokapi.com
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
