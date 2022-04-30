@@ -1,5 +1,5 @@
 name: stash补充规则
-desc: 去广告，国内外分流
+desc: 去广告
 
 http:
   force-http-engine:

@@ -1,0 +1,4 @@
+payload:
+  -  'ulogs.umengcloud.com'
+  -  'umeng.com'
+

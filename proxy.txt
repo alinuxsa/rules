@@ -1,0 +1,6 @@
+payload:
+  - 'weibo.com'
+  - 'weibocdn.com'
+  - 'weibo.cn'
+  - 'sinaimg.cn'
+
