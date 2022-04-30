@@ -14,9 +14,10 @@ http:
 rules:
   - DOMAIN-SUFFIX,ulogs.umengcloud.com,REJECT
   - DOMAIN-SUFFIX,umeng.com,REJECT
-  - DOMAIN-SUFFIX,weibo.com,REJECT
-  - DOMAIN-SUFFIX,weibo.cn,REJECT
-  - DOMAIN-SUFFIX,sinaimg.cn,REJECT
+  - DOMAIN-SUFFIX,weibo.com,Proxy
+  - DOMAIN-SUFFIX,weibocdn.com,Proxy
+  - DOMAIN-SUFFIX,weibo.cn,Proxy
+  - DOMAIN-SUFFIX,sinaimg.cn,Proxy
   - IP-CIDR,101.32.104.4/32,DIRECT,NO-RESOLVE
   - IP-CIDR,101.32.104.41/32,DIRECT,NO-RESOLVE
   - IP-CIDR,101.32.104.56/32,DIRECT,NO-RESOLVE
