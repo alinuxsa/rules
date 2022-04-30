@@ -4,9 +4,9 @@ desc: 去广告
 http:
   force-http-engine:
     - weibointl.api.weibo.cn
-    - '*.tiktokv.com'
-    - '*.tik-tokapi.com'
-    - '*.byteoversea.com'
+    - tiktokv.com
+    - tik-tokapi.com
+    - byteoversea.com
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
