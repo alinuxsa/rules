@@ -7,13 +7,7 @@ http:
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
-    - "adse.ximalaya.com"
-    - "w.ximalaya.com"
   rewrite:
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - REJECT
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - REJECT
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
-    - ^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime - REJECT
-    - ^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= - REJECT
-    - ^https?:\/\/adse\.ximalaya\.com\/ting\?appid= - REJECT
-    - ^https?:\/\/adse\.ximalaya\.com\/ting\/loading\/ts-\d+\?appid= - REJECT
