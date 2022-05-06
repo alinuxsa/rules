@@ -15,5 +15,5 @@ http:
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/\w+?\.ximalaya\.com\/api\/v\d\/adRealTime - REJECT
     - ^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= - REJECT
-    - ^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= - REJECT
     - ^https?:\/\/adse\.ximalaya\.com\/ting\?appid= - REJECT
+    - ^https?:\/\/adse\.ximalaya\.com\/ting\/loading\/ts-\d+\?appid= - REJECT
