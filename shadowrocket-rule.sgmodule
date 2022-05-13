@@ -10,7 +10,7 @@ DOMAIN,app-measurement.com,REJECT
 DOMAIN,ali-ad.a.yximgs.com,REJECT
 DOMAIN,g1.tagtic.cn,REJECT 	
 DOMAIN,img.adnyg.com,REJECT 	
-DOMAIN,img.adnyg.com.w.kunlungr.com,REJECT 	 	
+DOMAIN,img.adnyg.com.w.kunlungr.com,REJECT
 DOMAIN,log.tagtic.cn,REJECT 	 	
 DOMAIN,pgdt.ugdtimg.com,REJECT 		
 DOMAIN,sdownload.stargame.com,REJECT 	 	
