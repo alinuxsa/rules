@@ -2,10 +2,10 @@
 #!desc=20220514
 
 [Rule]
-DOMAIN,m.hotmail.com,DIRECT
+DOMAIN-SUFFIX,hotmail.com,DIRECT
 DOMAIN-SUFFIX,weibo.cn,DIRECT
 DOMAIN,sq.hik-cloud.com,DIRECT
-DOMAIN,ulogs.umengcloud.com,DIRECT
+DOMAIN,ulogs.umengcloud.com,REJECT
 DOMAIN,app-measurement.com,REJECT
 DOMAIN,ali-ad.a.yximgs.com,REJECT
 DOMAIN,g1.tagtic.cn,REJECT 	
