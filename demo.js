@@ -8,9 +8,8 @@ let option = {
     }
 }
 let result = await $.http.get(option).then(response => {
-  console.log(response);
-  $.msg('查看公网地址', '', response, '');
-  $.done();
+  console.log(response)
+  $.msg('查看公网地址', '', response, '')
 })
 
 
