@@ -3,8 +3,6 @@
 
 [Rule]
 DOMAIN,tx-ad.a.yximgs.com,REJECT
-DOMAIN-SUFFIX,ccysh.club,DIRECT
-DOMAIN-SUFFIX,v2ex.com,Proxy
 DOMAIN,dl.wechat.com,DIRECT
 DOMAIN,sglong.wechat.com,DIRECT
 DOMAIN,sgminorshort.wechat.com,DIRECT
