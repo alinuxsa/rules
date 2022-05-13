@@ -1,5 +1,5 @@
 #!name=Shadowrocket补充规则
-#!desc=Shadowrocket补充规则，覆盖默认配置文件 20220513
+#!desc=MITM的域名没写在这里 20220513
 
 [Rule]
 DOMAIN,g1.tagtic.cn,REJECT 	
