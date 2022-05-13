@@ -8,15 +8,9 @@ const option = {
     }
 }
 
-$.get(option, function(error, response, data) {
-    if (error && !data) {
-      $.msgBody = `请求失败!\n${error}`;
-    } else if (parseInt(response.status) == 200) {
-      $.msgBody = "请求成功！🎉";
-    }
-    $.msg($.name, ``, $.msgBody);
-    $.done();
-})
+$.msgBody = "1111";
+$.msg($.name, ``, $.msgBody);
+$.done();
 
 
 
