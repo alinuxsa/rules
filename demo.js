@@ -1,23 +1,22 @@
 const $ = new Env("获取公网地址");
 
 const option = {
-    url: "https://ip.sb/", 
+    url: "https://ip.sb", 
     headers: { 
         "Accept": "*/*",
         "User-Agent": "curl/7.5",
     }
 }
 
-$.get(option, async function(error, response, data) {
+$.get(option, function(error, response, data) {
     if (error && !data) {
       $.msgBody = `请求失败!\n${error}`;
     } else if (parseInt(response.status) == 200) {
       $.msgBody = "请求成功！🎉";
-      console.log(response);
     }
     $.msg($.name, ``, $.msgBody);
     $.done();
-  })
+})
 
 
 
