@@ -7,10 +7,12 @@ let option = {
         "User-Agent": "curl/7.5",
     }
 }
-let result = await $.http.get(option).then(response => {
-  console.log(response)
-  $.msg('查看公网地址', '', response, '')
+let result = await $.get(option, response => {
+    console.log(response.data);
+    $.msg('查看公网地址', '', response.data, '')
 })
+  
+
 
 
 
