@@ -29,3 +29,21 @@ IP-CIDR,129.226.3.47/32,DIRECT,no-resolve
 IP-CIDR,129.226.107.244/32,DIRECT,no-resolve
 IP-CIDR,124.156.154.102/32,DIRECT,no-resolve
 IP-CIDR,129.226.3.47/32,DIRECT,no-resolve
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Advertising/Advertising.list,REJECT
+
+
+[Host]
+*.qq.com = server:119.28.28.28
+*.tencent.com = server:119.28.28.28
+*.weixin.com = server:119.28.28.28
+
+[URL Rewrite]
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - REJECT
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - REJECT
+^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - REJECT
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - REJECT
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - REJECT
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - REJECT
+^https?:\/\/bdsp-x\.jd\.com\/adx\/ - REJECT
+
+
