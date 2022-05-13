@@ -2,6 +2,13 @@
 #!desc=Shadowrocket补充规则，覆盖默认配置文件 20220513
 
 [Rule]
+DOMAIN,g1.tagtic.cn,REJECT 	
+DOMAIN,img.adnyg.com,REJECT 	
+DOMAIN,img.adnyg.com.w.kunlungr.com,REJECT 	 	
+DOMAIN,log.tagtic.cn,REJECT 	 	
+DOMAIN,pgdt.ugdtimg.com,REJECT 		
+DOMAIN,sdownload.stargame.com,REJECT 	 	
+DOMAIN-SUFFIX,umeng.com,REJECT 	
 DOMAIN,tx-ad.a.yximgs.com,REJECT
 DOMAIN,dl.wechat.com,DIRECT
 DOMAIN,sglong.wechat.com,DIRECT
