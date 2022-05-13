@@ -7,9 +7,11 @@ let option = {
         "User-Agent": "curl/7.5",
     }
 }
-let result = await $.get(option, response => {
-    console.log(response.data);
-    $.msg('查看公网地址', '', response.data, '')
+let result = await $.get(option, (error, resp, data) => {
+    $.log("resp",resp)
+    $.log("data:",data)
+    $.log("err",error)
+    // $.msg('查看公网地址', '', response.data, '')
 })
   
 
