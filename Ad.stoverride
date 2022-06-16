@@ -10,6 +10,7 @@ http:
     - "ms.jr.jd.com"
     - "bdsp-x.jd.com"
     - "dsp-x.jd.com"
+    - "www.xiaoxiongyouhao.com"
   rewrite:
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
@@ -18,3 +19,4 @@ http:
     - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
     - ^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
+    - ^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/app_ad.php - reject
