@@ -7,5 +7,6 @@ cron:
       argument: ''
       timeout: 100
   script-providers:
-    url:
-    interval: 86400
+    name: cron-demo
+      url: https://raw.githubusercontent.com/alinuxsa/rules/main/cron-demo.js
+      interval: 86400
