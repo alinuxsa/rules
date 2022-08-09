@@ -1,0 +1,11 @@
+name: stash计划任务
+desc: 测试stash计划任务
+cron:
+  script:
+    - name: cron-demo
+      cron: '*/5 * * * *'
+      argument: ''
+      timeout: 100
+  script-providers:
+    url:
+    interval: 86400
