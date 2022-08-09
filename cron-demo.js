@@ -1,6 +1,6 @@
 const $ = new Env("cron-demo")
 $.msg('title','subtitle','aaabbbccc')
-
+$.done()
 
 
 
