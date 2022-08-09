@@ -9,4 +9,4 @@ cron:
 script-providers:
   cron-demo:
     url: https://raw.githubusercontent.com/alinuxsa/rules/main/cron-demo.js
-    interval: 86400
+    interval: 60
