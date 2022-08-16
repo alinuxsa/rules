@@ -116,3 +116,4 @@ rules:
   #广告联盟
   - DOMAIN-SUFFIX,.inmobi.cn,REJECT
   - DOMAIN-SUFFIX,.criteo.com,REJECT
+  - DOMAIN-SUFFIX,app-measurement.com,REJECT
