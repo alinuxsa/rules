@@ -4,6 +4,7 @@ desc: 去广告
 http:
   force-http-engine:
     - weibointl.api.weibo.cn
+    - api.weibo.cn
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
@@ -11,9 +12,11 @@ http:
     - "bdsp-x.jd.com"
     - "dsp-x.jd.com"
     - "www.xiaoxiongyouhao.com"
+    - "api.weibo.cn"
   rewrite:
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
+    - ^http(s):\/\/api.weibo.cn\/2\/push\/active\?Accept-Encoding=default&aid= - reject
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
     - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject
