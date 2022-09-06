@@ -16,7 +16,7 @@ http:
   rewrite:
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
-    - ^http(s):\/\/api.weibo.cn\/2\/push\/active\?Accept-Encoding=default&aid= - reject
+    - ^https?:\/\/api\.weibo\.cn\/2\/push\/active\?Accept-Encoding=default&aid= - reject
     - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject
     - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
     - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject
