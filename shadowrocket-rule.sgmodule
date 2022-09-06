@@ -140,7 +140,7 @@ DOMAIN-KEYWORD,adashx
 [URL Rewrite]
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - REJECT
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - REJECT
-^https?:\/\/api.weibo.cn\/2\/push\/active\?Accept-Encoding=default&aid= - REJECT
+^https?:\/\/api\.weibo\.cn\/2\/push\/active\?Accept-Encoding=default&aid= - REJECT
 ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - REJECT
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - REJECT
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - REJECT
@@ -156,4 +156,4 @@ DOMAIN-KEYWORD,adashx
 
 
 [MITM]
-hostname = %APPEND% mp.weixin.qq.com,ms.jr.jd.com,weibointl.api.weibo.cn,adpai.thepaper.cn,bdsp-x.jd.com,dsp-x.jd.com
+hostname = %APPEND% mp.weixin.qq.com,ms.jr.jd.com,weibointl.api.weibo.cn,adpai.thepaper.cn,bdsp-x.jd.com,dsp-x.jd.com,api.weibo.cn
