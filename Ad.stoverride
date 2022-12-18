@@ -5,6 +5,7 @@ http:
   force-http-engine:
     - weibointl.api.weibo.cn
     - api.weibo.cn
+    - weibo.com
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
