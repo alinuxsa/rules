@@ -16,15 +16,15 @@ http:
     - "sdkapp.uve.weibo.com"
     - "adimg.uve.weibo.com"
   rewrite:
-    - ^https:\/\/adimg\.uve\.weibo\.com\/public\/files\/image\/.*\.mp4$ - reject
-    - ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject-dict
+    - ^https?:\/\/adimg\.uve\.weibo\.com\/public\/files\/image\/.*\.mp4$ - reject
+    - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*get_coopen_ads.* - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject-dict
     - ^https?:\/\/api\.weibo\.cn\/2\/push\/active\.*aid=.* - reject-dict
-    - ^https:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject-dict
-    - ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
-    - ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject-dict
+    - ^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - reject-dict
+    - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
+    - ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - reject-dict
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject-dict
     - ^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
     - ^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/app_ad.php - reject-dict
