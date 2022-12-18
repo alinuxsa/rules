@@ -29,6 +29,7 @@ http:
     - ^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
     - ^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/app_ad.php - reject-dict
 rules:
+  - DOMAIN,adstrategy.biz.weibo.com,REJECT
   #百度（可能有多余项）
   - DOMAIN-SUFFIX,eclick.baidu.com,REJECT
   - DOMAIN-SUFFIX,entry.baidu.com,REJECT
