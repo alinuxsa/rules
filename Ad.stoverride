@@ -6,7 +6,6 @@ http:
     - weibointl.api.weibo.cn
     - api.weibo.cn
     - weibo.com
-    - f.video.weibocdn.com
   mitm:
     - "weibointl.api.weibo.cn"
     - "adpai.thepaper.cn"
@@ -17,9 +16,7 @@ http:
     - "api.weibo.cn"
     - "sdkapp.uve.weibo.com"
     - "adimg.uve.weibo.com"
-    - "*.weibocdn.com"
   url-rewrite:
-    - ^https?:\/\/f\.video\.weibocdn\.com\/.*\.mp4\?.*Expires.*video$ - reject
     - ^https?:\/\/adimg\.uve\.weibo\.com\/public\/files\/image\/.*\.mp4$ - reject
     - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*get_coopen_ads.* - reject-dict
