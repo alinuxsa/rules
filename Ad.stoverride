@@ -15,6 +15,7 @@ http:
     - "api.weibo.cn"
     - "sdkapp.uve.weibo.com"
   rewrite:
+    - ^https:\/\/adimg\.uve\.weibo\.com\/public\/files\/image\/.*\.mp4$ - reject
     - ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*get_coopen_ads.* - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject-dict
