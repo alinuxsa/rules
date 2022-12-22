@@ -18,7 +18,7 @@ http:
     - "adimg.uve.weibo.com"
   url-rewrite:
     - ^https?:\/\/adimg\.uve\.weibo\.com\/public\/files\/image\/.*\.mp4$ - reject
-    - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php - reject-dict
+    - ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php.* - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*get_coopen_ads.* - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - reject-dict
     - ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject-dict
@@ -29,7 +29,17 @@ http:
     - ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject-dict
     - ^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
     - ^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/app_ad.php - reject-dict
+
+rule-providers:
+  Adblock-Domain:
+    type: http
+    behavior: domain
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    path: ./ruleset/AdDomain.yaml
+    interval: 86400
+    
 rules:
+  - RULE-SET,Adblock-Domain,REJECT
   - DOMAIN,adstrategy.biz.weibo.com,REJECT
   #百度（可能有多余项）
   - DOMAIN-SUFFIX,eclick.baidu.com,REJECT
