@@ -5,7 +5,7 @@
 #!icon= 插件的图标
 
 [rewrite]
-^https?://baidu.com 302 https://www.google.com/ncr
+^https?://baidu.com 302 https://www.google.com
 
 [mitm]
 baidu.com
