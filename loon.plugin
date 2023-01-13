@@ -4,8 +4,8 @@
 #!homepage= 插件首页，可在插件页面进行跳转
 #!icon= 插件的图标
 
-[rewrite]
-^https?://baidu.com 302 https://www.google.com
+[script]
+^https?://baidu.com script-path=https://raw.githubusercontent.com/alinuxsa/rules/main/loon.js,timeout=10,requires-body = true,tag = responseScript,enable=true
 
 [mitm]
 baidu.com
