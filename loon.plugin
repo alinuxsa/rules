@@ -1,0 +1,11 @@
+#!name= Loon Plugin 测试
+#!desc= 测试
+#!author= 测试作者
+#!homepage= 插件首页，可在插件页面进行跳转
+#!icon= 插件的图标
+
+[rewrite]
+^https?://baidu.com 302 https://www.google.com/ncr
+
+[mitm]
+baidu.com
