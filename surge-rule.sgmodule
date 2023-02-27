@@ -1,0 +1,150 @@
+#!name=Surge补充规则
+#!desc=20230227
+
+[Rule]
+#百度（可能有多余项）
+DOMAIN-SUFFIX,eclick.baidu.com,REJECT
+DOMAIN-SUFFIX,entry.baidu.com,REJECT
+DOMAIN-SUFFIX,hmma.baidu.com,REJECT
+DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT
+DOMAIN-SUFFIX,mtj.baidu.com,REJECT
+DOMAIN-SUFFIX,nsclick.baidu.com,REJECT
+DOMAIN-SUFFIX,static.tieba.baidu.com,REJECT
+DOMAIN-SUFFIX,ucstat.baidu.com,REJECT
+DOMAIN-SUFFIX,union.baidu.com,REJECT
+DOMAIN-SUFFIX,imageplus.baidu.com,REJECT
+DOMAIN-SUFFIX,t10.baidu.com,REJECT
+DOMAIN-SUFFIX,t11.baidu.com,REJECT
+DOMAIN-SUFFIX,t12.baidu.com,REJECT
+# 未知广告 来自#49反馈
+DOMAIN-SUFFIX,stats.chinaz.com,REJECT
+#站长统计
+DOMAIN-SUFFIX,google-analytics.com,REJECT
+#广告联盟（可能有多余项）
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,zhihu-analytics.zhihu.com,REJECT
+DOMAIN-SUFFIX,log.cmbchina.com,REJECT
+DOMAIN-SUFFIX,api.segment.io,REJECT
+DOMAIN-SUFFIX,api.instabug.com,REJECT
+DOMAIN-SUFFIX,adlog.flurry.com,REJECT
+DOMAIN-SUFFIX,ads.flurry.com,REJECT
+DOMAIN-SUFFIX,sd.domob.cn,REJECT
+DOMAIN-SUFFIX,adjust.com,REJECT
+DOMAIN-SUFFIX,adjust.io,REJECT
+DOMAIN-SUFFIX,beacon.tingyun.com,REJECT
+DOMAIN-SUFFIX,cmcore.com,REJECT
+DOMAIN-SUFFIX,coremetrics.com,REJECT
+DOMAIN-SUFFIX,irs01.com,REJECT
+DOMAIN-SUFFIX,madmini.com,REJECT
+DOMAIN-SUFFIX,optimizelyapis.com,REJECT
+DOMAIN-SUFFIX,sitemeter.com,REJECT
+DOMAIN-SUFFIX,wrating.com,REJECT
+DOMAIN-SUFFIX,99click.com,REJECT
+DOMAIN-SUFFIX,acs86.com,REJECT
+DOMAIN-SUFFIX,adchina.com,REJECT
+DOMAIN-SUFFIX,adcome.cn,REJECT
+DOMAIN-SUFFIX,adinfuse.com,REJECT
+DOMAIN-SUFFIX,adsmogo.org,REJECT
+DOMAIN-SUFFIX,aduu.cn,REJECT
+DOMAIN-SUFFIX,advertising.com,REJECT
+DOMAIN-SUFFIX,adview.cn,REJECT
+DOMAIN-SUFFIX,adwhirl.com,REJECT
+DOMAIN-SUFFIX,adwo.com,REJECT
+DOMAIN-SUFFIX,adxmi.com,REJECT
+DOMAIN-SUFFIX,adzerk.net,REJECT
+DOMAIN-SUFFIX,allyes.com,REJECT
+DOMAIN-SUFFIX,anquan.org,REJECT
+DOMAIN-SUFFIX,appads.com,REJECT
+DOMAIN-SUFFIX,applifier.com,REJECT
+DOMAIN-SUFFIX,applovin.com,REJECT
+DOMAIN-SUFFIX,chartboost.com,REJECT
+DOMAIN-SUFFIX,clicktracks.com,REJECT
+DOMAIN-SUFFIX,clickzs.com,REJECT
+DOMAIN-SUFFIX,guohead.com,REJECT
+DOMAIN-SUFFIX,guomob.com,REJECT
+DOMAIN-SUFFIX,immob.cn,REJECT
+DOMAIN-SUFFIX,inmobi.com,REJECT
+DOMAIN-SUFFIX,intely.cn,REJECT
+DOMAIN-SUFFIX,ipinyou.com,REJECT
+DOMAIN-SUFFIX,localytics.com,REJECT
+DOMAIN-SUFFIX,mediav.com,REJECT
+DOMAIN-SUFFIX,mobclix.com,REJECT
+DOMAIN-SUFFIX,optaim.com,REJECT
+DOMAIN-SUFFIX,quantserve.com,REJECT
+DOMAIN-SUFFIX,responsys.net,REJECT
+DOMAIN-SUFFIX,serving-sys.com,REJECT
+DOMAIN-SUFFIX,smartmad.com,REJECT
+DOMAIN-SUFFIX,smartadserver.com,REJECT
+DOMAIN-SUFFIX,sponsorpay.com,REJECT
+DOMAIN-SUFFIX,switchadhub.com,REJECT
+DOMAIN-SUFFIX,thoughtleadr.com,REJECT
+DOMAIN-SUFFIX,unimhk.com,REJECT
+DOMAIN-SUFFIX,unlitui.com,REJECT
+DOMAIN-SUFFIX,uyunad.com,REJECT
+DOMAIN-SUFFIX,vamaker.com,REJECT
+DOMAIN-SUFFIX,waps.cn,REJECT
+DOMAIN-SUFFIX,wiyun.com,REJECT
+DOMAIN-SUFFIX,wooboo.com.cn,REJECT
+DOMAIN-SUFFIX,wqmobile.com,REJECT
+DOMAIN-SUFFIX,youmi.net,REJECT
+DOMAIN-SUFFIX,zhiziyun.com,REJECT
+DOMAIN-SUFFIX,segment.com,REJECT
+#喜马拉雅跟踪和广告
+DOMAIN-SUFFIX,location.ximalaya.com,REJECT
+DOMAIN-SUFFIX,adse.ximalaya.com,REJECT
+DOMAIN-SUFFIX,xdcs-collector.ximalaya.com,REJECT
+#广告联盟
+DOMAIN-SUFFIX,.inmobi.cn,REJECT
+DOMAIN-SUFFIX,.criteo.com,REJECT
+DOMAIN-SUFFIX,hotmail.com,DIRECT
+DOMAIN-SUFFIX,weibo.cn,DIRECT
+DOMAIN,sq.hik-cloud.com,DIRECT
+DOMAIN,ulogs.umengcloud.com,REJECT
+DOMAIN,app-measurement.com,REJECT
+DOMAIN,ali-ad.a.yximgs.com,REJECT
+DOMAIN,g1.tagtic.cn,REJECT 	
+DOMAIN,img.adnyg.com,REJECT 	
+DOMAIN,img.adnyg.com.w.kunlungr.com,REJECT
+DOMAIN,log.tagtic.cn,REJECT 	 	
+DOMAIN,pgdt.ugdtimg.com,REJECT 		
+DOMAIN,sdownload.stargame.com,REJECT 	 	
+DOMAIN-SUFFIX,umeng.com,REJECT 	
+DOMAIN,tx-ad.a.yximgs.com,REJECT
+DOMAIN,dl.wechat.com,DIRECT
+DOMAIN,sglong.wechat.com,DIRECT
+DOMAIN,sgminorshort.wechat.com,DIRECT
+DOMAIN,sgshort.wechat.com,DIRECT
+DOMAIN,tencentmap.wechat.com,DIRECT
+DOMAIN,adimg.uve.weibo.com,REJECT
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,adse.ximalaya.com,REJECT
+IP-CIDR,101.32.104.4/32,DIRECT,no-resolve
+IP-CIDR,101.32.104.41/32,DIRECT,no-resolve
+IP-CIDR,101.32.104.56/32,DIRECT,no-resolve
+IP-CIDR,101.32.118.25/32,DIRECT,no-resolve
+IP-CIDR,101.32.133.16/32,DIRECT,no-resolve
+IP-CIDR,101.32.133.53/32,DIRECT,no-resolve
+IP-CIDR,101.32.133.209/32,DIRECT,no-resolve
+IP-CIDR,129.226.3.47/32,DIRECT,no-resolve
+IP-CIDR,129.226.107.244/32,DIRECT,no-resolve
+IP-CIDR,124.156.154.102/32,DIRECT,no-resolve
+IP-CIDR,129.226.3.47/32,DIRECT,no-resolve
+
+[Host]
+*.qq.com = server:119.28.28.28
+*.tencent.com = server:119.28.28.28
+*.weixin.com = server:119.28.28.28
+
+[URL Rewrite]
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - REJECT
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - REJECT
+^https?:\/\/api\.weibo\.cn\/2\/push\/active\?Accept-Encoding=default&aid= - REJECT
+^https?:\/\/adpai\.thepaper\.cn\/.+?&ad= - REJECT
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - REJECT
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/(new)?na\/m\/adInfo - REJECT
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - REJECT
+^https?:\/\/bdsp-x\.jd\.com\/adx\/ - REJECT
+
+[MITM]
+hostname = %INSERT% mp.weixin.qq.com,ms.jr.jd.com,weibointl.api.weibo.cn,adpai.thepaper.cn,bdsp-x.jd.com,dsp-x.jd.com,api.weibo.cn
