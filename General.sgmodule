@@ -1,0 +1,41 @@
+#!name=Surge General Conf
+#!desc=Surge iOS部分配置
+  
+[General]
+proxy-test-url = http://cp.cloudflare.com/generate_204
+geoip-maxmind-url = https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb
+encrypted-dns-server = https://223.5.5.5/dns-query,https://120.53.53.53/dns-query
+dns-server = system
+ipv6-vif = disabled
+compatibility-mode = 3
+# force-http-engine-hosts = %APPEND% -<ip-address>, *
+always-real-ip = +.stun.*.*,+.stun.*.*.*,+.stun.*.*.*.*
+# 代理不支持UDP时reject
+udp-policy-not-supported-behaviour = REJECT
+
+
+[Host]
+*.google.com = server:https://45.11.45.11/dns-query
+*.googlevideo.com = server:https://45.11.45.11/dns-query
+*.taobao.com = server:223.5.5.5
+*.tmall.com = server:223.5.5.5
+*.alipay.com = server:223.5.5.5
+*.alicdn.com = server:223.5.5.5
+*.aliyun.com = server:223.5.5.5
+*.jd.com = server:119.29.29.29
+*.qq.com = server:119.29.29.29
+*.tencent.com = server:119.29.29.29
+*.weixin.com = server:119.29.29.29
+*.bilibili.com = server:119.29.29.29
+hdslb.com = server:119.29.29.29
+*.163.com = server:119.29.29.29
+*.126.com = server:119.29.29.29
+*.126.net = server:119.29.29.29
+*.127.net = server:119.29.29.29
+*.netease.com = server:119.29.29.29
+raw.githubusercontent.com = server:https://45.11.45.11/dns-query
+*.twimg.com = server:https://45.11.45.11/dns-query
+*.twitter.com = server:https://45.11.45.11/dns-query
+t.co = server:https://45.11.45.11/dns-query
+*.youtube.com = server:https://45.11.45.11/dns-query
+*.dropbox.com = server:https://45.11.45.11/dns-query
