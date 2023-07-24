@@ -1,2 +1,38 @@
-name: 自定义DNS
-desc: 
+name: CustomDNS
+desc: 自定义DNS配置项
+
+dns:
+  ipv6: false
+  enable: true
+  default-nameserver:
+  - 223.5.5.5
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.88.67.1/16
+  fake-ip-filter: 
+    - '*.lan'
+    - '*.671111.xyz'
+    - 'engage.nanocat.me'
+  nameserver:
+    - tls://223.5.5.5
+  nameserver-policy:
+    '+.qq.com': '119.29.29.29'
+    '+.weixin.com': '119.28.28.28'
+    '*.tencent.com': '119.28.28.28'
+    '*.wechat.com': '119.28.28.28'
+    '+.taobao.com': '223.6.6.6'
+    '+.tmall.com': '223.6.6.6'
+    '+.hostloc.com': 'https://1.0.0.1/dns-query'
+    '+.bing.com': 'https://1.0.0.1/dns-query'
+    '+.microsoft.com': 'https://1.0.0.1/dns-query'
+    '+.google.com': 'https://1.0.0.1/dns-query'
+    '+.googlevideo.com': 'https://1.0.0.1/dns-query'
+    '+.githubusercontent.com': 'https://1.0.0.1/dns-query'
+    '+.vscode-cdn.net': 'https://1.0.0.1/dns-query'
+    '+.github.dev': 'https://1.0.0.1/dns-query'
+    '+.dropbox.com': 'https://1.0.0.1/dns-query'
+    '+.youtube.com': 'https://1.0.0.1/dns-query'
+    '+.v2ex.com': 'tls://8.8.4.4'
+    '+.smallstrawberry.com': 'https://1.0.0.1/dns-query'
+    '+.vimeo.com': 'https://1.0.0.1/dns-query'
+    '+.cloudflare.com': 'https://1.0.0.1/dns-query'
+    '+.claude.ai': 'https://1.0.0.1/dns-query'
