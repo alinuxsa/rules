@@ -1,0 +1,12 @@
+name: 今日黄历
+desc: 今日黄历 来源 zqzess
+cron:
+  script:
+    - name: wnCalendar
+      cron: '30 6 * * *'
+      argument: ''
+      timeout: 100
+script-providers:
+  wnCalendar:
+    url: https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/wnCalendar/wnCalendar.js
+    interval: 86400
