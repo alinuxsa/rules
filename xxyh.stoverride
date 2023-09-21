@@ -1,0 +1,19 @@
+name: xxyh
+desc: 解锁xxyh VIP
+
+http:
+  force-http-engine:
+    - 'www.xiaoxiongyouhao.com'
+  script:
+    - match: ^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/vip\/index\.php\?a=.*\&auth_token=.*
+      name: xxvip
+      type: response
+      require-body: true
+      timeout: 20
+      max-size: 1048576
+      binary-mode: false
+script-providers:
+    xxvip:
+      url: https://raw.githubusercontent.com/alinuxsa/rules/main/xxyh.js
+      interval: 86400
+    
