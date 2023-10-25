@@ -37,3 +37,4 @@ dns:
     '+.claude.ai': 'https://1.0.0.1/dns-query'
     '+.twimg.com': 'https://1.0.0.1/dns-query'
     '+.twitter.com': 'https://1.0.0.1/dns-query'
+    '+.t.co': 'https://1.0.0.1/dns-query'
