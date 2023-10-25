@@ -35,3 +35,5 @@ dns:
     '+.vimeo.com': 'https://1.0.0.1/dns-query'
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
     '+.claude.ai': 'https://1.0.0.1/dns-query'
+    '+.twimg.com': 'https://1.0.0.1/dns-query'
+    '+.twitter.com': 'https://1.0.0.1/dns-query'
