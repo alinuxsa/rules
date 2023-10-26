@@ -135,6 +135,30 @@ IP-CIDR,129.226.3.47/32,DIRECT,no-resolve
 *.qq.com = server:119.28.28.28
 *.tencent.com = server:119.28.28.28
 *.weixin.com = server:119.28.28.28
+*.taobao.com = server:223.6.6.6
+*.tmall.com = server:223.6.6.6
+*.18bit.cn= server:223.5.5.5
+*.hostloc.com = server:https://1.0.0.1/dns-query
+*.bing.com = server:https://1.0.0.1/dns-query
+*.microsoft.com = server:https://1.0.0.1/dns-query
+*.google.com = server:https://1.0.0.1/dns-query
+*.googlevideo.com = server:https://1.0.0.1/dns-query
+*.githubusercontent.com = server:https://1.0.0.1/dns-query
+*.vscode-cdn.net = server:https://1.0.0.1/dns-query
+*.github.dev = server:https://1.0.0.1/dns-query
+*.dropbox.com = server:https://1.0.0.1/dns-query
+*.youtube.com = server:https://1.0.0.1/dns-query
+*.v2ex.com = server:https://1.0.0.1/dns-query
+*.smallstrawberry.com = server:https://1.0.0.1/dns-query
+*.vimeo.com = server:https://1.0.0.1/dns-query
+*.cloudflare.com = server:https://8.8.8.8/dns-query
+*.claude.ai= server:https://1.0.0.1/dns-query
+*.calibre-ebook.com = server:https://1.0.0.1/dns-query
+*.twimg.com = server:https://1.0.0.1/dns-query
+*.twitter.com = server:https://1.0.0.1/dns-query
+*.t.co = server:https://1.0.0.1/dns-query
+*.ytimg.com = server:https://1.0.0.1/dns-query
+*.google.* = server:https://1.0.0.1/dns-query
 
 [URL Rewrite]
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php.*ads&c=ad.* - REJECT
