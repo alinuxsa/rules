@@ -3,7 +3,7 @@ desc: 显示今日宜忌、节日等信息, 详情见 https://github.com/zqzess/
 cron:
   script:
     - name: wnCalendar
-      cron: '*/5 * * * *'
+      cron: '15 10 * * *'
       argument: ''
       timeout: 100
 script-providers:
