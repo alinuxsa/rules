@@ -13,7 +13,7 @@ dns:
     - '*.lan'
     - 'engage.nanocat.me'
   nameserver:
-    - tls://doh.pub
+    - https://doh.pub
   nameserver-policy:
     '+.qq.com': '119.29.29.29'
     '+.weixin.com': '119.28.28.28'
