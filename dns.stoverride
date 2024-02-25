@@ -1,5 +1,6 @@
 name: CustomDNS
 desc: 自定义DNS配置项
+category: "General"
 
 dns:
   ipv6: false
