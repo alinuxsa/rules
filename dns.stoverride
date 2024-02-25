@@ -6,14 +6,14 @@ dns:
   ipv6: false
   enable: true
   default-nameserver:
-  - 180.76.76.76
+  - system
   enhanced-mode: fake-ip
   fake-ip-range: 198.88.67.1/16
   fake-ip-filter: 
     - '*.lan'
     - 'engage.nanocat.me'
   nameserver:
-    - https://doh.pub
+    - https://doh.pub/dns-query
   nameserver-policy:
     '+.qq.com': '119.29.29.29'
     '+.weixin.com': '119.28.28.28'
