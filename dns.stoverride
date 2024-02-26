@@ -5,6 +5,7 @@ icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Drill.
 dns:
   ipv6: false
   enable: true
+  listen: 127.0.0.1:5353
   default-nameserver:
   - system
   enhanced-mode: fake-ip
@@ -31,7 +32,7 @@ dns:
     '+.github.dev': 'https://1.0.0.1/dns-query'
     '+.dropbox.com': 'https://1.0.0.1/dns-query'
     '+.youtube.com': 'https://1.0.0.1/dns-query'
-    '+.v2ex.com': 'tls://8.8.4.4'
+    '+.v2ex.com': 'tls://8.8.4.4:853'
     '+.smallstrawberry.com': 'https://1.0.0.1/dns-query'
     '+.vimeo.com': 'https://1.0.0.1/dns-query'
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
