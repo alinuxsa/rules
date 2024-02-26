@@ -1,5 +1,7 @@
 name: EnableMITM
 desc: 使用小火箭的证书
+category: "General"
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Puzzle.png
 
 http:
   force-http-engine:
