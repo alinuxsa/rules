@@ -1,0 +1,5 @@
+name: YoutubeMusic
+category: "Rule"
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Music.png  
+rules:
+  - DOMAIN,music.youtube.com
