@@ -1,5 +1,8 @@
-name: stash补充规则
+name: stash补充去广告规则
 desc: 去广告
+category: "General"
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+
 
 http:
   force-http-engine:
