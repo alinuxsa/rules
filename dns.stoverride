@@ -25,7 +25,7 @@ dns:
     ipcidr:
       - 240.0.0.0/4
     domain:
-      - '+.twimg.com'
+      - 'pbs.twimg.com'
       - '+.youtube.com'
       - '+.ytimg.com'
   nameserver-policy:
