@@ -24,6 +24,8 @@ dns:
     geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
+    domain:
+      - '+.twimg.com'
   nameserver-policy:
     '+.qq.com': '119.29.29.29'
     '+.weixin.com': '119.28.28.28'
