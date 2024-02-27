@@ -5,16 +5,25 @@ icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Drill.
 dns:
   ipv6: false
   enable: true
-  listen: 127.0.0.1:5353
   default-nameserver:
   - system
   enhanced-mode: fake-ip
-  fake-ip-range: 198.88.67.1/16
+  fake-ip-range: 192.18.0.1/16
   fake-ip-filter: 
     - '*.lan'
     - 'engage.nanocat.me'
+    - '*.apple.com'
   nameserver:
+    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+  fallback:
+    - https://8.8.4.4/dns-query
+    - https://1.0.0.1/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
   nameserver-policy:
     '+.qq.com': '119.29.29.29'
     '+.weixin.com': '119.28.28.28'
@@ -32,12 +41,9 @@ dns:
     '+.github.dev': 'https://1.0.0.1/dns-query'
     '+.dropbox.com': 'https://1.0.0.1/dns-query'
     '+.youtube.com': 'https://1.0.0.1/dns-query'
-    '+.v2ex.com': 'tls://8.8.4.4:853'
+    '+.v2ex.com': https://1.0.0.1/dns-query
     '+.smallstrawberry.com': 'https://1.0.0.1/dns-query'
     '+.vimeo.com': 'https://1.0.0.1/dns-query'
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
     '+.claude.ai': 'https://1.0.0.1/dns-query'
-    '+.twimg.com': 'tls://8.8.4.4:853'
-    '+.twitter.com': 'tls://8.8.4.4:853'
-    '+.t.co': 'tls://1.0.0.1:853'
-    '+.github.com': 'tls://8.8.4.4:853'
+    '+.github.com': https://1.0.0.1/dns-query'
