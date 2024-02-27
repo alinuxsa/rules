@@ -49,5 +49,5 @@ dns:
     '+.vimeo.com': 'https://1.0.0.1/dns-query'
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
     '+.claude.ai': 'https://1.0.0.1/dns-query'
-    'pbs.twimg.com': 'https://doh.sb/dns-query'
+    '+.twimg.com': 'https://doh.opendns.com/dns-query'
     '+.github.com': https://1.0.0.1/dns-query'
