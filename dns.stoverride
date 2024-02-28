@@ -6,7 +6,7 @@ dns:
   ipv6: false
   enable: true
   default-nameserver:
-  - system
+  - 180.76.76.76
   enhanced-mode: fake-ip
   fake-ip-range: 192.18.0.1/16
   fake-ip-filter: 
@@ -50,3 +50,4 @@ dns:
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
     '+.claude.ai': 'https://1.0.0.1/dns-query'
     '+.github.com': https://1.0.0.1/dns-query'
+    '+.twimg.com': https://1.0.0.1/dns-query'
