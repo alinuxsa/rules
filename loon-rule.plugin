@@ -1,5 +1,6 @@
 #!name=Surge补充规则
 #!desc=20240227
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
 
 [rule]
 #百度（可能有多余项）
