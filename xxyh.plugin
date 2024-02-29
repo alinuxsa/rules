@@ -1,0 +1,9 @@
+#!name= xxyh
+#!desc= xxyh vip
+
+
+[script]
+http-request ^https?:\/\/www\.xiaoxiongyouhao\.com\/api\/vip\/index\.php\?a=.*\&auth_token=.* script-path=https://raw.githubusercontent.com/alinuxsa/rules/main/xxyh.js,timeout=10,requires-body = true,tag = responseScript,enable=true
+
+[mitm]
+www.xiaoxiongyouhao.com
