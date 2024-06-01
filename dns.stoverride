@@ -5,6 +5,7 @@ icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Drill.
 dns:
   ipv6: false
   enable: true
+  follow-rule: true
   default-nameserver:
   - 180.76.76.76
   enhanced-mode: fake-ip
