@@ -14,9 +14,10 @@ dns:
     - '*.lan'
     - 'engage.nanocat.me'
     - '*.apple.com'
+    - '*.671111.xyz'
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+    - https://dns.google/dns-query
+    - https://1.0.0.1/dns-query
   fallback:
     - https://8.8.4.4/dns-query
     - https://1.0.0.1/dns-query
@@ -54,3 +55,7 @@ dns:
     '+.twimg.com': 'https://1.0.0.1/dns-query'
     '+.twitter.com': 'https://1.0.0.1/dns-query'
     't.co': 'https://1.0.0.1/dns-query'
+    "geosite:cn,private":
+      - tls://223.5.5.5
+      - https://dot.pub/dns-query
+    "geosite:category-ads-all": rcode://success
