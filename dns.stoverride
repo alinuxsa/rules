@@ -18,17 +18,6 @@ dns:
   nameserver:
     - https://dns.google/dns-query
     - https://1.0.0.1/dns-query
-  fallback:
-    - https://8.8.4.4/dns-query
-    - https://1.0.0.1/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-    domain:
-      - '+.youtube.com'
-      - '+.ytimg.com'
   nameserver-policy:
     '+.qq.com': '119.29.29.29'
     '+.weixin.com': '119.28.28.28'
@@ -52,10 +41,5 @@ dns:
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
     '+.claude.ai': 'https://1.0.0.1/dns-query'
     '+.github.com': 'https://1.0.0.1/dns-query'
-    '+.twimg.com': 'https://1.0.0.1/dns-query'
-    '+.twitter.com': 'https://1.0.0.1/dns-query'
-    't.co': 'https://1.0.0.1/dns-query'
-    "geosite:cn,private":
-      - tls://223.5.5.5
-      - https://dot.pub/dns-query
-    "geosite:category-ads-all": rcode://success
+    "geosite:cn": 'tls://223.5.5.5'
+    "geosite:private": 'tls://223.5.5.5'
