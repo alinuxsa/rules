@@ -9,12 +9,18 @@ dns:
   default-nameserver:
   - 180.76.76.76
   enhanced-mode: fake-ip
-  fake-ip-range: 192.18.0.1/16
   fake-ip-filter: 
     - '*.lan'
     - 'engage.nanocat.me'
     - '*.apple.com'
     - '*.671111.xyz'
+    - '*.qq.com'
+    - '*.tencent.com'
+    - '*.weixin.com'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
   nameserver:
     - https://dns.google/dns-query
     - https://1.0.0.1/dns-query
