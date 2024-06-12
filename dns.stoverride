@@ -7,7 +7,7 @@ dns:
   enable: true
   follow-rule: true
   default-nameserver:
-  - 180.76.76.76
+  - 119.29.29.29
   enhanced-mode: fake-ip
   fake-ip-filter: 
     - '*.lan'
@@ -18,10 +18,13 @@ dns:
     - '+.stun.*.*.*'
     - '+.stun.*.*.*.*'
     - '+.stun.*.*.*.*.*'
+    - '+.qq.*'
   nameserver:
     - https://dns.google/dns-query
     - https://1.0.0.1/dns-query
   nameserver-policy:
+    "geosite:cn": 'tls://223.5.5.5'
+    "geosite:private": 'tls://223.5.5.5'
     '+.qq.com': '119.29.29.29'
     '+.weixin.com': '119.28.28.28'
     '*.tencent.com': '119.28.28.28'
@@ -44,5 +47,3 @@ dns:
     '+.cloudflare.com': 'https://1.0.0.1/dns-query'
     '+.claude.ai': 'https://1.0.0.1/dns-query'
     '+.github.com': 'https://1.0.0.1/dns-query'
-    "geosite:cn": 'tls://223.5.5.5'
-    "geosite:private": 'tls://223.5.5.5'
