@@ -1,0 +1,1184 @@
+{
+    "spider": "",
+    "logo": "https://img.magnific.com/free-vector/cute-dolphin-swimming-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat-vector_138676-12582.jpg?semt=ais_hybrid&w=740&q=80",
+    "wallpaper": "http://tool.teyonds.com/api",
+    "sites": [
+        {
+            "key": "275听书",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/275听书.py",
+            "name": "275听书",
+            "ext": ""
+        },
+        {
+            "key": "30剧集网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/30剧集网.py",
+            "name": "30剧集网",
+            "ext": ""
+        },
+        {
+            "key": "456电影网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/456电影网.py",
+            "name": "456电影网",
+            "ext": ""
+        },
+        {
+            "key": "4K影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/4K影视.py",
+            "name": "4K影视",
+            "ext": ""
+        },
+        {
+            "key": "4K影视仓",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/4K影视仓.py",
+            "name": "4K影视仓",
+            "ext": ""
+        },
+        {
+            "key": "55影院(关梯)",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/55影院(关梯).py",
+            "name": "55影院(关梯)",
+            "ext": ""
+        },
+        {
+            "key": "58影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/58影视.py",
+            "name": "58影视",
+            "ext": ""
+        },
+        {
+            "key": "6080影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/6080影视.py",
+            "name": "6080影视",
+            "ext": ""
+        },
+        {
+            "key": "6080新视觉",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/6080新视觉.py",
+            "name": "6080新视觉",
+            "ext": ""
+        },
+        {
+            "key": "66大片网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/66大片网.py",
+            "name": "66大片网",
+            "ext": ""
+        },
+        {
+            "key": "808影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/808影院.py",
+            "name": "808影院",
+            "ext": ""
+        },
+        {
+            "key": "99短剧网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/99短剧网.py",
+            "name": "99短剧网",
+            "ext": ""
+        },
+        {
+            "key": "ASMR吧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/ASMR吧.py",
+            "name": "ASMR吧",
+            "ext": ""
+        },
+        {
+            "key": "Auete影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/Auete影视.py",
+            "name": "Auete影视",
+            "ext": ""
+        },
+        {
+            "key": "CNFLIX",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/CNFLIX.py",
+            "name": "CNFLIX",
+            "ext": ""
+        },
+        {
+            "key": "DJ呦呦",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/DJ呦呦.py",
+            "name": "DJ呦呦",
+            "ext": ""
+        },
+        {
+            "key": "EcoHub影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/EcoHub影视.py",
+            "name": "EcoHub影视",
+            "ext": ""
+        },
+        {
+            "key": "FoFo影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/FoFo影院.py",
+            "name": "FoFo影院",
+            "ext": ""
+        },
+        {
+            "key": "FreeOK",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/FreeOK.py",
+            "name": "FreeOK",
+            "ext": ""
+        },
+        {
+            "key": "GimyTV剧迷",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/GimyTV剧迷.py",
+            "name": "GimyTV剧迷",
+            "ext": ""
+        },
+        {
+            "key": "MiFun动漫",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/MiFun动漫.py",
+            "name": "MiFun动漫",
+            "ext": ""
+        },
+        {
+            "key": "pomo",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/pomo.py",
+            "name": "pomo",
+            "ext": ""
+        },
+        {
+            "key": "vidhub",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/vidhub.py",
+            "name": "vidhub",
+            "ext": ""
+        },
+        {
+            "key": "VIP兔",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/VIP兔.py",
+            "name": "VIP兔",
+            "ext": ""
+        },
+        {
+            "key": "VS影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/VS影院.py",
+            "name": "VS影院",
+            "ext": ""
+        },
+        {
+            "key": "ZIP0影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/ZIP0影视.py",
+            "name": "ZIP0影视",
+            "ext": ""
+        },
+        {
+            "key": "一起影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/一起影视.py",
+            "name": "一起影视",
+            "ext": ""
+        },
+        {
+            "key": "七味",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/七味.py",
+            "name": "七味",
+            "ext": ""
+        },
+        {
+            "key": "七猫影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/七猫影视.py",
+            "name": "七猫影视",
+            "ext": ""
+        },
+        {
+            "key": "云朵影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/云朵影视.py",
+            "name": "云朵影视",
+            "ext": ""
+        },
+        {
+            "key": "云途影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/云途影视.py",
+            "name": "云途影视",
+            "ext": ""
+        },
+        {
+            "key": "仙腾影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/仙腾影院.py",
+            "name": "仙腾影院",
+            "ext": ""
+        },
+        {
+            "key": "优酷视频",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/优酷视频.py",
+            "name": "优酷视频",
+            "ext": ""
+        },
+        {
+            "key": "低端影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/低端影视.py",
+            "name": "低端影视",
+            "ext": ""
+        },
+        {
+            "key": "兄弟影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/兄弟影视.py",
+            "name": "兄弟影视",
+            "ext": ""
+        },
+        {
+            "key": "兔岛影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/兔岛影院.py",
+            "name": "兔岛影院",
+            "ext": ""
+        },
+        {
+            "key": "八天电影",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/八天电影.py",
+            "name": "八天电影",
+            "ext": ""
+        },
+        {
+            "key": "八度影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/八度影院.py",
+            "name": "八度影院",
+            "ext": ""
+        },
+        {
+            "key": "八戒影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/八戒影视.py",
+            "name": "八戒影视",
+            "ext": ""
+        },
+        {
+            "key": "共和国动漫",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/共和国动漫.py",
+            "name": "共和国动漫",
+            "ext": ""
+        },
+        {
+            "key": "共青春影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/共青春影院.py",
+            "name": "共青春影院",
+            "ext": ""
+        },
+        {
+            "key": "农民影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/农民影视.py",
+            "name": "农民影视",
+            "ext": ""
+        },
+        {
+            "key": "初见影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/初见影视.py",
+            "name": "初见影视",
+            "ext": ""
+        },
+        {
+            "key": "刷不停短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/刷不停短剧.py",
+            "name": "刷不停短剧",
+            "ext": ""
+        },
+        {
+            "key": "剧OK",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/剧OK.py",
+            "name": "剧OK",
+            "ext": ""
+        },
+        {
+            "key": "剧下饭4K",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/剧下饭4K.py",
+            "name": "剧下饭4K",
+            "ext": ""
+        },
+        {
+            "key": "动漫啦",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/动漫啦.py",
+            "name": "动漫啦",
+            "ext": ""
+        },
+        {
+            "key": "动漫巴士",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/动漫巴士.py",
+            "name": "动漫巴士",
+            "ext": ""
+        },
+        {
+            "key": "努努影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/努努影院.py",
+            "name": "努努影院",
+            "ext": ""
+        },
+        {
+            "key": "千千音乐",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/千千音乐.py",
+            "name": "千千音乐",
+            "ext": ""
+        },
+        {
+            "key": "华数TV",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/华数TV.py",
+            "name": "华数TV",
+            "ext": ""
+        },
+        {
+            "key": "华谊影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/华谊影视.py",
+            "name": "华谊影视",
+            "ext": ""
+        },
+        {
+            "key": "厂长影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/厂长影视.py",
+            "name": "厂长影视",
+            "ext": ""
+        },
+        {
+            "key": "厂长资源",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/厂长资源.py",
+            "name": "厂长资源",
+            "ext": ""
+        },
+        {
+            "key": "君念影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/君念影院.py",
+            "name": "君念影院",
+            "ext": ""
+        },
+        {
+            "key": "听书网456",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/听书网456.py",
+            "name": "听书网456",
+            "ext": ""
+        },
+        {
+            "key": "咖啡直播",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/咖啡直播.py",
+            "name": "咖啡直播",
+            "ext": ""
+        },
+        {
+            "key": "哇哇APP",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/哇哇APP.py",
+            "name": "哇哇APP",
+            "ext": ""
+        },
+        {
+            "key": "哔哩直播",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/哔哩直播.py",
+            "name": "哔哩直播",
+            "ext": ""
+        },
+        {
+            "key": "喜福短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/喜福短剧.py",
+            "name": "喜福短剧",
+            "ext": ""
+        },
+        {
+            "key": "嘀嗒影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/嘀嗒影视.py",
+            "name": "嘀嗒影视",
+            "ext": ""
+        },
+        {
+            "key": "在线短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/在线短剧.py",
+            "name": "在线短剧",
+            "ext": ""
+        },
+        {
+            "key": "夏日影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/夏日影院.py",
+            "name": "夏日影院",
+            "ext": ""
+        },
+        {
+            "key": "多多影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/多多影视.py",
+            "name": "多多影视",
+            "ext": ""
+        },
+        {
+            "key": "多瑙影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/多瑙影院.py",
+            "name": "多瑙影院",
+            "ext": ""
+        },
+        {
+            "key": "大象短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/大象短剧.py",
+            "name": "大象短剧",
+            "ext": ""
+        },
+        {
+            "key": "大马猴",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/大马猴.py",
+            "name": "大马猴",
+            "ext": ""
+        },
+        {
+            "key": "太乙影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/太乙影视.py",
+            "name": "太乙影视",
+            "ext": ""
+        },
+        {
+            "key": "奇优影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/奇优影院.py",
+            "name": "奇优影院",
+            "ext": ""
+        },
+        {
+            "key": "奇点影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/奇点影视.py",
+            "name": "奇点影视",
+            "ext": ""
+        },
+        {
+            "key": "奈非工厂",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/奈非工厂.py",
+            "name": "奈非工厂",
+            "ext": ""
+        },
+        {
+            "key": "好剧屋",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/好剧屋.py",
+            "name": "好剧屋",
+            "ext": ""
+        },
+        {
+            "key": "好好看",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/好好看.py",
+            "name": "好好看",
+            "ext": ""
+        },
+        {
+            "key": "威视TV",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/威视TV.py",
+            "name": "威视TV",
+            "ext": ""
+        },
+        {
+            "key": "宅男影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/宅男影视.py",
+            "name": "宅男影视",
+            "ext": ""
+        },
+        {
+            "key": "山水影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/山水影视.py",
+            "name": "山水影视",
+            "ext": ""
+        },
+        {
+            "key": "开心影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/开心影院.py",
+            "name": "开心影院",
+            "ext": ""
+        },
+        {
+            "key": "开端影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/开端影视.py",
+            "name": "开端影视",
+            "ext": ""
+        },
+        {
+            "key": "影子音乐",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/影子音乐.py",
+            "name": "影子音乐",
+            "ext": ""
+        },
+        {
+            "key": "悟圣短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/悟圣短剧.py",
+            "name": "悟圣短剧",
+            "ext": ""
+        },
+        {
+            "key": "悟空影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/悟空影视.py",
+            "name": "悟空影视",
+            "ext": ""
+        },
+        {
+            "key": "悦听吧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/悦听吧.py",
+            "name": "悦听吧",
+            "ext": ""
+        },
+        {
+            "key": "手机影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/手机影院.py",
+            "name": "手机影院",
+            "ext": ""
+        },
+        {
+            "key": "搜剧AI",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/搜剧AI.py",
+            "name": "搜剧AI",
+            "ext": ""
+        },
+        {
+            "key": "无极电影网(关梯)",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/无极电影网(关梯).py",
+            "name": "无极电影网(关梯)",
+            "ext": ""
+        },
+        {
+            "key": "易听书网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/易听书网.py",
+            "name": "易听书网",
+            "ext": ""
+        },
+        {
+            "key": "星梦Asmr",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/星梦Asmr.py",
+            "name": "星梦Asmr",
+            "ext": ""
+        },
+        {
+            "key": "星河影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/星河影视.py",
+            "name": "星河影视",
+            "ext": ""
+        },
+        {
+            "key": "星芽短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/星芽短剧.py",
+            "name": "星芽短剧",
+            "ext": ""
+        },
+        {
+            "key": "星辰影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/星辰影院.py",
+            "name": "星辰影院",
+            "ext": ""
+        },
+        {
+            "key": "映像星球",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/映像星球.py",
+            "name": "映像星球",
+            "ext": ""
+        },
+        {
+            "key": "映刻短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/映刻短剧.py",
+            "name": "映刻短剧",
+            "ext": ""
+        },
+        {
+            "key": "果果短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/果果短剧.py",
+            "name": "果果短剧",
+            "ext": ""
+        },
+        {
+            "key": "枝枝影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/枝枝影视.py",
+            "name": "枝枝影视",
+            "ext": ""
+        },
+        {
+            "key": "枫叶4K",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/枫叶4K.py",
+            "name": "枫叶4K",
+            "ext": ""
+        },
+        {
+            "key": "枫叶影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/枫叶影院.py",
+            "name": "枫叶影院",
+            "ext": ""
+        },
+        {
+            "key": "枫叶音乐",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/枫叶音乐.py",
+            "name": "枫叶音乐",
+            "ext": ""
+        },
+        {
+            "key": "柯南影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/柯南影视.py",
+            "name": "柯南影视",
+            "ext": ""
+        },
+        {
+            "key": "楓林網",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/楓林網.py",
+            "name": "楓林網",
+            "ext": ""
+        },
+        {
+            "key": "樱之空动漫",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/樱之空动漫.py",
+            "name": "樱之空动漫",
+            "ext": ""
+        },
+        {
+            "key": "橘汁视频",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/橘汁视频.py",
+            "name": "橘汁视频",
+            "ext": ""
+        },
+        {
+            "key": "毒舌影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/毒舌影视.py",
+            "name": "毒舌影视",
+            "ext": ""
+        },
+        {
+            "key": "毒舌短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/毒舌短剧.py",
+            "name": "毒舌短剧",
+            "ext": ""
+        },
+        {
+            "key": "永乐视频",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/永乐视频.py",
+            "name": "永乐视频",
+            "ext": ""
+        },
+        {
+            "key": "河马剧场",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/河马剧场.py",
+            "name": "河马剧场",
+            "ext": ""
+        },
+        {
+            "key": "油管",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/油管.py",
+            "name": "油管",
+            "ext": ""
+        },
+        {
+            "key": "油管直播",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/油管直播.py",
+            "name": "油管直播",
+            "ext": ""
+        },
+        {
+            "key": "泡泡影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/泡泡影院.py",
+            "name": "泡泡影院",
+            "ext": ""
+        },
+        {
+            "key": "泥视频",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/泥视频.py",
+            "name": "泥视频",
+            "ext": ""
+        },
+        {
+            "key": "热播APP",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/热播APP.py",
+            "name": "热播APP",
+            "ext": ""
+        },
+        {
+            "key": "熊猫直播",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/熊猫直播.py",
+            "name": "熊猫直播",
+            "ext": ""
+        },
+        {
+            "key": "爱壹帆",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/爱壹帆.py",
+            "name": "爱壹帆",
+            "ext": ""
+        },
+        {
+            "key": "爱奇艺",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/爱奇艺.py",
+            "name": "爱奇艺",
+            "ext": ""
+        },
+        {
+            "key": "爱看机器人",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/爱看机器人.py",
+            "name": "爱看机器人",
+            "ext": ""
+        },
+        {
+            "key": "瓜子APP",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/瓜子APP.py",
+            "name": "瓜子APP",
+            "ext": ""
+        },
+        {
+            "key": "电影侠",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/电影侠.py",
+            "name": "电影侠",
+            "ext": ""
+        },
+        {
+            "key": "白洋影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/白洋影院.py",
+            "name": "白洋影院",
+            "ext": ""
+        },
+        {
+            "key": "百花影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/百花影院.py",
+            "name": "百花影院",
+            "ext": ""
+        },
+        {
+            "key": "皮皮虾",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/皮皮虾.py",
+            "name": "皮皮虾",
+            "ext": ""
+        },
+        {
+            "key": "看剧AI",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/看剧AI.py",
+            "name": "看剧AI",
+            "ext": ""
+        },
+        {
+            "key": "看戏影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/看戏影视.py",
+            "name": "看戏影视",
+            "ext": ""
+        },
+        {
+            "key": "真狼影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/真狼影视.py",
+            "name": "真狼影视",
+            "ext": ""
+        },
+        {
+            "key": "短剧大全",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/短剧大全.py",
+            "name": "短剧大全",
+            "ext": ""
+        },
+        {
+            "key": "短剧巴士",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/短剧巴士.py",
+            "name": "短剧巴士",
+            "ext": ""
+        },
+        {
+            "key": "短剧聚合",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/短剧聚合.py",
+            "name": "短剧聚合",
+            "ext": ""
+        },
+        {
+            "key": "石榴短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/石榴短剧.py",
+            "name": "石榴短剧",
+            "ext": ""
+        },
+        {
+            "key": "神马影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/神马影视.py",
+            "name": "神马影视",
+            "ext": ""
+        },
+        {
+            "key": "第七影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/第七影院.py",
+            "name": "第七影院",
+            "ext": ""
+        },
+        {
+            "key": "第九短剧网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/第九短剧网.py",
+            "name": "第九短剧网",
+            "ext": ""
+        },
+        {
+            "key": "糯米短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/糯米短剧.py",
+            "name": "糯米短剧",
+            "ext": ""
+        },
+        {
+            "key": "红果短剧",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/红果短剧.py",
+            "name": "红果短剧",
+            "ext": ""
+        },
+        {
+            "key": "网飞TV",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/网飞TV.py",
+            "name": "网飞TV",
+            "ext": ""
+        },
+        {
+            "key": "网飞猫影视(关梯)",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/网飞猫影视(关梯).py",
+            "name": "网飞猫影视(关梯)",
+            "ext": ""
+        },
+        {
+            "key": "美剧天堂",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/美剧天堂.py",
+            "name": "美剧天堂",
+            "ext": ""
+        },
+        {
+            "key": "聚合直播",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/聚合直播.py",
+            "name": "聚合直播",
+            "ext": ""
+        },
+        {
+            "key": "腾爱优芒B",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/腾爱优芒B.py",
+            "name": "腾爱优芒B",
+            "ext": ""
+        },
+        {
+            "key": "腾讯视频",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/腾讯视频.py",
+            "name": "腾讯视频",
+            "ext": ""
+        },
+        {
+            "key": "芒果TV",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/芒果TV.py",
+            "name": "芒果TV",
+            "ext": ""
+        },
+        {
+            "key": "芭蕉剧场",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/芭蕉剧场.py",
+            "name": "芭蕉剧场",
+            "ext": ""
+        },
+        {
+            "key": "茶杯狐",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/茶杯狐.py",
+            "name": "茶杯狐",
+            "ext": ""
+        },
+        {
+            "key": "草莓影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/草莓影视.py",
+            "name": "草莓影视",
+            "ext": ""
+        },
+        {
+            "key": "蚕驰短剧网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/蚕驰短剧网.py",
+            "name": "蚕驰短剧网",
+            "ext": ""
+        },
+        {
+            "key": "蛋挞TV",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/蛋挞TV.py",
+            "name": "蛋挞TV",
+            "ext": ""
+        },
+        {
+            "key": "蝶卡影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/蝶卡影视.py",
+            "name": "蝶卡影视",
+            "ext": ""
+        },
+        {
+            "key": "袋鼠影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/袋鼠影视.py",
+            "name": "袋鼠影视",
+            "ext": ""
+        },
+        {
+            "key": "观风影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/观风影视.py",
+            "name": "观风影视",
+            "ext": ""
+        },
+        {
+            "key": "视觉影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/视觉影院.py",
+            "name": "视觉影院",
+            "ext": ""
+        },
+        {
+            "key": "豆花影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/豆花影视.py",
+            "name": "豆花影视",
+            "ext": ""
+        },
+        {
+            "key": "追光影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/追光影视.py",
+            "name": "追光影视",
+            "ext": ""
+        },
+        {
+            "key": "追影",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/追影.py",
+            "name": "追影",
+            "ext": ""
+        },
+        {
+            "key": "酷我音乐",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/酷我音乐.py",
+            "name": "酷我音乐",
+            "ext": ""
+        },
+        {
+            "key": "采集聚合",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/采集聚合.py",
+            "name": "采集聚合",
+            "ext": ""
+        },
+        {
+            "key": "金牌APP",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/金牌APP.py",
+            "name": "金牌APP",
+            "ext": ""
+        },
+        {
+            "key": "青牛影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/青牛影视.py",
+            "name": "青牛影视",
+            "ext": ""
+        },
+        {
+            "key": "青空次元",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/青空次元.py",
+            "name": "青空次元",
+            "ext": ""
+        },
+        {
+            "key": "青蛙影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/青蛙影视.py",
+            "name": "青蛙影视",
+            "ext": ""
+        },
+        {
+            "key": "韩小圈",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/韩小圈.py",
+            "name": "韩小圈",
+            "ext": ""
+        },
+        {
+            "key": "音乐聚合",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/音乐聚合.py",
+            "name": "音乐聚合",
+            "ext": ""
+        },
+        {
+            "key": "飞快TV",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/飞快TV.py",
+            "name": "飞快TV",
+            "ext": ""
+        },
+        {
+            "key": "飞流视频",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/飞流视频.py",
+            "name": "飞流视频",
+            "ext": ""
+        },
+        {
+            "key": "饭搭子影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/饭搭子影视.py",
+            "name": "饭搭子影视",
+            "ext": ""
+        },
+        {
+            "key": "首映网",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/首映网.py",
+            "name": "首映网",
+            "ext": ""
+        },
+        {
+            "key": "骚火影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/骚火影视.py",
+            "name": "骚火影视",
+            "ext": ""
+        },
+        {
+            "key": "高清点播",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/高清点播.py",
+            "name": "高清点播",
+            "ext": ""
+        },
+        {
+            "key": "麒麟影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/麒麟影视.py",
+            "name": "麒麟影视",
+            "ext": ""
+        },
+        {
+            "key": "麦田影院",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/麦田影院.py",
+            "name": "麦田影院",
+            "ext": ""
+        },
+        {
+            "key": "麻花影视",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/麻花影视.py",
+            "name": "麻花影视",
+            "ext": ""
+        },
+        {
+            "key": "黑猫动漫",
+            "type": 3,
+            "api": "https://gh.671111.xyz/https://raw.githubusercontent.com/phu889/kjh998/main/py/黑猫动漫.py",
+            "name": "黑猫动漫",
+            "ext": ""
+        }
+    ],
+    "parses": []
+}
